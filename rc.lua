@@ -1,6 +1,7 @@
 -- Load libraries
 local awful = require("awful")
 local naughty = require("naughty")
+local gears = require("gears")
 require("awful.autofocus")
 
 --[[ 
@@ -24,6 +25,7 @@ modkey = "Mod4"
 -- Load files
 require("bind")
 require("rule") 
+require("theme")
 
 --[[
 	Layouts:
